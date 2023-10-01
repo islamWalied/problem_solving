@@ -193,6 +193,19 @@ F/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/build
 .PHONY : F/fast
 
+#=============================================================================
+# Target rules for targets named G
+
+# Build rule for target.
+G : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 G
+.PHONY : G
+
+# fast build rule for target.
+G/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/build
+.PHONY : G/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -337,6 +350,30 @@ F._Digits_Summation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/F._Digits_Summation.cpp.s
 .PHONY : F._Digits_Summation.cpp.s
 
+G._Summation_from_1_to_N.obj: G._Summation_from_1_to_N.cpp.obj
+.PHONY : G._Summation_from_1_to_N.obj
+
+# target to build an object file
+G._Summation_from_1_to_N.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/G._Summation_from_1_to_N.cpp.obj
+.PHONY : G._Summation_from_1_to_N.cpp.obj
+
+G._Summation_from_1_to_N.i: G._Summation_from_1_to_N.cpp.i
+.PHONY : G._Summation_from_1_to_N.i
+
+# target to preprocess a source file
+G._Summation_from_1_to_N.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/G._Summation_from_1_to_N.cpp.i
+.PHONY : G._Summation_from_1_to_N.cpp.i
+
+G._Summation_from_1_to_N.s: G._Summation_from_1_to_N.cpp.s
+.PHONY : G._Summation_from_1_to_N.s
+
+# target to generate assembly for a file
+G._Summation_from_1_to_N.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\G.dir\build.make CMakeFiles/G.dir/G._Summation_from_1_to_N.cpp.s
+.PHONY : G._Summation_from_1_to_N.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -351,6 +388,7 @@ help:
 	@echo ... D
 	@echo ... E
 	@echo ... F
+	@echo ... G
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -369,6 +407,9 @@ help:
 	@echo ... F._Digits_Summation.obj
 	@echo ... F._Digits_Summation.i
 	@echo ... F._Digits_Summation.s
+	@echo ... G._Summation_from_1_to_N.obj
+	@echo ... G._Summation_from_1_to_N.i
+	@echo ... G._Summation_from_1_to_N.s
 .PHONY : help
 
 
