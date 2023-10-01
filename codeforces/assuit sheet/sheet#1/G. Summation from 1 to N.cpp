@@ -5,7 +5,8 @@ using namespace std;
 
 int main()
 {
-    long long a,b;
-    cin >> a >> b;
-    cout << (a%10) + (b%10);
+    long long a,b = 0;
+    cin >> a;
+    b = (a*(a+1))/2;
+    cout << b;
 }
