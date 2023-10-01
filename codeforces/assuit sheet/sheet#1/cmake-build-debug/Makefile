@@ -180,6 +180,19 @@ E/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/build
 .PHONY : E/fast
 
+#=============================================================================
+# Target rules for targets named F
+
+# Build rule for target.
+F : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 F
+.PHONY : F
+
+# fast build rule for target.
+F/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/build
+.PHONY : F/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -300,6 +313,30 @@ E._Area_of_a_Circle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\E.dir\build.make CMakeFiles/E.dir/E._Area_of_a_Circle.cpp.s
 .PHONY : E._Area_of_a_Circle.cpp.s
 
+F._Digits_Summation.obj: F._Digits_Summation.cpp.obj
+.PHONY : F._Digits_Summation.obj
+
+# target to build an object file
+F._Digits_Summation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/F._Digits_Summation.cpp.obj
+.PHONY : F._Digits_Summation.cpp.obj
+
+F._Digits_Summation.i: F._Digits_Summation.cpp.i
+.PHONY : F._Digits_Summation.i
+
+# target to preprocess a source file
+F._Digits_Summation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/F._Digits_Summation.cpp.i
+.PHONY : F._Digits_Summation.cpp.i
+
+F._Digits_Summation.s: F._Digits_Summation.cpp.s
+.PHONY : F._Digits_Summation.s
+
+# target to generate assembly for a file
+F._Digits_Summation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F.dir\build.make CMakeFiles/F.dir/F._Digits_Summation.cpp.s
+.PHONY : F._Digits_Summation.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -313,6 +350,7 @@ help:
 	@echo ... C
 	@echo ... D
 	@echo ... E
+	@echo ... F
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -328,6 +366,9 @@ help:
 	@echo ... E._Area_of_a_Circle.obj
 	@echo ... E._Area_of_a_Circle.i
 	@echo ... E._Area_of_a_Circle.s
+	@echo ... F._Digits_Summation.obj
+	@echo ... F._Digits_Summation.i
+	@echo ... F._Digits_Summation.s
 .PHONY : help
 
 
