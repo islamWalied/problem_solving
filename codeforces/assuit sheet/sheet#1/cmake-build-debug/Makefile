@@ -258,6 +258,19 @@ K/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\K.dir\build.make CMakeFiles/K.dir/build
 .PHONY : K/fast
 
+#=============================================================================
+# Target rules for targets named L
+
+# Build rule for target.
+L : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 L
+.PHONY : L
+
+# fast build rule for target.
+L/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\L.dir\build.make CMakeFiles/L.dir/build
+.PHONY : L/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -522,6 +535,30 @@ K._Max_and_Min.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\K.dir\build.make CMakeFiles/K.dir/K._Max_and_Min.cpp.s
 .PHONY : K._Max_and_Min.cpp.s
 
+L._The_Brothers.obj: L._The_Brothers.cpp.obj
+.PHONY : L._The_Brothers.obj
+
+# target to build an object file
+L._The_Brothers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\L.dir\build.make CMakeFiles/L.dir/L._The_Brothers.cpp.obj
+.PHONY : L._The_Brothers.cpp.obj
+
+L._The_Brothers.i: L._The_Brothers.cpp.i
+.PHONY : L._The_Brothers.i
+
+# target to preprocess a source file
+L._The_Brothers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\L.dir\build.make CMakeFiles/L.dir/L._The_Brothers.cpp.i
+.PHONY : L._The_Brothers.cpp.i
+
+L._The_Brothers.s: L._The_Brothers.cpp.s
+.PHONY : L._The_Brothers.s
+
+# target to generate assembly for a file
+L._The_Brothers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\L.dir\build.make CMakeFiles/L.dir/L._The_Brothers.cpp.s
+.PHONY : L._The_Brothers.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -541,6 +578,7 @@ help:
 	@echo ... I
 	@echo ... J
 	@echo ... K
+	@echo ... L
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -574,6 +612,9 @@ help:
 	@echo ... K._Max_and_Min.obj
 	@echo ... K._Max_and_Min.i
 	@echo ... K._Max_and_Min.s
+	@echo ... L._The_Brothers.obj
+	@echo ... L._The_Brothers.i
+	@echo ... L._The_Brothers.s
 .PHONY : help
 
 
