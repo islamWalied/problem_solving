@@ -284,6 +284,45 @@ M/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\M.dir\build.make CMakeFiles/M.dir/build
 .PHONY : M/fast
 
+#=============================================================================
+# Target rules for targets named N
+
+# Build rule for target.
+N : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 N
+.PHONY : N
+
+# fast build rule for target.
+N/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\N.dir\build.make CMakeFiles/N.dir/build
+.PHONY : N/fast
+
+#=============================================================================
+# Target rules for targets named O
+
+# Build rule for target.
+O : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 O
+.PHONY : O
+
+# fast build rule for target.
+O/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\O.dir\build.make CMakeFiles/O.dir/build
+.PHONY : O/fast
+
+#=============================================================================
+# Target rules for targets named P
+
+# Build rule for target.
+P : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 P
+.PHONY : P
+
+# fast build rule for target.
+P/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P.dir\build.make CMakeFiles/P.dir/build
+.PHONY : P/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -596,6 +635,78 @@ M._Capital_or_Small_or_Digit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\M.dir\build.make CMakeFiles/M.dir/M._Capital_or_Small_or_Digit.cpp.s
 .PHONY : M._Capital_or_Small_or_Digit.cpp.s
 
+N._Char.obj: N._Char.cpp.obj
+.PHONY : N._Char.obj
+
+# target to build an object file
+N._Char.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\N.dir\build.make CMakeFiles/N.dir/N._Char.cpp.obj
+.PHONY : N._Char.cpp.obj
+
+N._Char.i: N._Char.cpp.i
+.PHONY : N._Char.i
+
+# target to preprocess a source file
+N._Char.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\N.dir\build.make CMakeFiles/N.dir/N._Char.cpp.i
+.PHONY : N._Char.cpp.i
+
+N._Char.s: N._Char.cpp.s
+.PHONY : N._Char.s
+
+# target to generate assembly for a file
+N._Char.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\N.dir\build.make CMakeFiles/N.dir/N._Char.cpp.s
+.PHONY : N._Char.cpp.s
+
+O._Calculator.obj: O._Calculator.cpp.obj
+.PHONY : O._Calculator.obj
+
+# target to build an object file
+O._Calculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\O.dir\build.make CMakeFiles/O.dir/O._Calculator.cpp.obj
+.PHONY : O._Calculator.cpp.obj
+
+O._Calculator.i: O._Calculator.cpp.i
+.PHONY : O._Calculator.i
+
+# target to preprocess a source file
+O._Calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\O.dir\build.make CMakeFiles/O.dir/O._Calculator.cpp.i
+.PHONY : O._Calculator.cpp.i
+
+O._Calculator.s: O._Calculator.cpp.s
+.PHONY : O._Calculator.s
+
+# target to generate assembly for a file
+O._Calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\O.dir\build.make CMakeFiles/O.dir/O._Calculator.cpp.s
+.PHONY : O._Calculator.cpp.s
+
+P._First_digit.obj: P._First_digit.cpp.obj
+.PHONY : P._First_digit.obj
+
+# target to build an object file
+P._First_digit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P.dir\build.make CMakeFiles/P.dir/P._First_digit.cpp.obj
+.PHONY : P._First_digit.cpp.obj
+
+P._First_digit.i: P._First_digit.cpp.i
+.PHONY : P._First_digit.i
+
+# target to preprocess a source file
+P._First_digit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P.dir\build.make CMakeFiles/P.dir/P._First_digit.cpp.i
+.PHONY : P._First_digit.cpp.i
+
+P._First_digit.s: P._First_digit.cpp.s
+.PHONY : P._First_digit.s
+
+# target to generate assembly for a file
+P._First_digit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P.dir\build.make CMakeFiles/P.dir/P._First_digit.cpp.s
+.PHONY : P._First_digit.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -617,6 +728,9 @@ help:
 	@echo ... K
 	@echo ... L
 	@echo ... M
+	@echo ... N
+	@echo ... O
+	@echo ... P
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -656,6 +770,15 @@ help:
 	@echo ... M._Capital_or_Small_or_Digit.obj
 	@echo ... M._Capital_or_Small_or_Digit.i
 	@echo ... M._Capital_or_Small_or_Digit.s
+	@echo ... N._Char.obj
+	@echo ... N._Char.i
+	@echo ... N._Char.s
+	@echo ... O._Calculator.obj
+	@echo ... O._Calculator.i
+	@echo ... O._Calculator.s
+	@echo ... P._First_digit.obj
+	@echo ... P._First_digit.i
+	@echo ... P._First_digit.s
 .PHONY : help
 
 

@@ -16,4 +16,7 @@ add_executable(J "J. Multiples.cpp")
 add_executable(K "K. Max and Min.cpp")
 add_executable(L "L. The Brothers.cpp")
 add_executable(M "M. Capital or Small or Digit.cpp")
+add_executable(N "N. Char.cpp")
+add_executable(O "O. Calculator.cpp")
+add_executable(P "P. First digit.cpp")
 
