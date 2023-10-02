@@ -4,18 +4,21 @@
 using namespace std;
 
 int main() {
-    char a;
-    cin >> a;
-    if(a >= 48 && a <= 57)
-    {
-        cout << "IS DIGIT";
-    }
-    if(a >= 65 && a <= 90) {
-        cout << "ALPHA\n";
-        cout << "IS CAPITAL";
-    }
-    else if(a >= 97 && a <= 122) {
-        cout << "ALPHA\n";
-        cout << "IS SMALL";
+    long long num1,num2;
+    char sign = '+';
+    cin >> num1 >> sign >> num2;
+    switch (sign) {
+        case '+':
+            cout << num1 + num2;
+            break;
+        case '-':
+            cout << num1 - num2;
+            break;
+        case '*':
+            cout << num1 * num2;
+            break;
+        case '/':
+            cout << num1 / num2;
+            break;
     }
 }
