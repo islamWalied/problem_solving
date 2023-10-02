@@ -15,3 +15,5 @@ add_executable(I "I. Welcome for you with Conditions.cpp")
 add_executable(J "J. Multiples.cpp")
 add_executable(K "K. Max and Min.cpp")
 add_executable(L "L. The Brothers.cpp")
+add_executable(M "M. Capital or Small or Digit.cpp")
+

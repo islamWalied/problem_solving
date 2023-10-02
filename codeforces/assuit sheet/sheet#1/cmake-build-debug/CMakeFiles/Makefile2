@@ -74,6 +74,7 @@ all: CMakeFiles/I.dir/all
 all: CMakeFiles/J.dir/all
 all: CMakeFiles/K.dir/all
 all: CMakeFiles/L.dir/all
+all: CMakeFiles/M.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -93,6 +94,7 @@ clean: CMakeFiles/I.dir/clean
 clean: CMakeFiles/J.dir/clean
 clean: CMakeFiles/K.dir/clean
 clean: CMakeFiles/L.dir/clean
+clean: CMakeFiles/M.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -406,6 +408,32 @@ L : CMakeFiles/L.dir/rule
 CMakeFiles/L.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\L.dir\build.make CMakeFiles/L.dir/clean
 .PHONY : CMakeFiles/L.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/M.dir
+
+# All Build rule for target.
+CMakeFiles/M.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\M.dir\build.make CMakeFiles/M.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\M.dir\build.make CMakeFiles/M.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" --progress-num=25,26 "Built target M"
+.PHONY : CMakeFiles/M.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/M.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/M.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/M.dir/rule
+
+# Convenience name for target.
+M : CMakeFiles/M.dir/rule
+.PHONY : M
+
+# clean rule for target.
+CMakeFiles/M.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\M.dir\build.make CMakeFiles/M.dir/clean
+.PHONY : CMakeFiles/M.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

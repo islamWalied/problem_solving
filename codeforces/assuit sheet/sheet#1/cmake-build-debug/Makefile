@@ -271,6 +271,19 @@ L/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\L.dir\build.make CMakeFiles/L.dir/build
 .PHONY : L/fast
 
+#=============================================================================
+# Target rules for targets named M
+
+# Build rule for target.
+M : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 M
+.PHONY : M
+
+# fast build rule for target.
+M/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\M.dir\build.make CMakeFiles/M.dir/build
+.PHONY : M/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -559,6 +572,30 @@ L._The_Brothers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\L.dir\build.make CMakeFiles/L.dir/L._The_Brothers.cpp.s
 .PHONY : L._The_Brothers.cpp.s
 
+M._Capital_or_Small_or_Digit.obj: M._Capital_or_Small_or_Digit.cpp.obj
+.PHONY : M._Capital_or_Small_or_Digit.obj
+
+# target to build an object file
+M._Capital_or_Small_or_Digit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\M.dir\build.make CMakeFiles/M.dir/M._Capital_or_Small_or_Digit.cpp.obj
+.PHONY : M._Capital_or_Small_or_Digit.cpp.obj
+
+M._Capital_or_Small_or_Digit.i: M._Capital_or_Small_or_Digit.cpp.i
+.PHONY : M._Capital_or_Small_or_Digit.i
+
+# target to preprocess a source file
+M._Capital_or_Small_or_Digit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\M.dir\build.make CMakeFiles/M.dir/M._Capital_or_Small_or_Digit.cpp.i
+.PHONY : M._Capital_or_Small_or_Digit.cpp.i
+
+M._Capital_or_Small_or_Digit.s: M._Capital_or_Small_or_Digit.cpp.s
+.PHONY : M._Capital_or_Small_or_Digit.s
+
+# target to generate assembly for a file
+M._Capital_or_Small_or_Digit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\M.dir\build.make CMakeFiles/M.dir/M._Capital_or_Small_or_Digit.cpp.s
+.PHONY : M._Capital_or_Small_or_Digit.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -579,6 +616,7 @@ help:
 	@echo ... J
 	@echo ... K
 	@echo ... L
+	@echo ... M
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -615,6 +653,9 @@ help:
 	@echo ... L._The_Brothers.obj
 	@echo ... L._The_Brothers.i
 	@echo ... L._The_Brothers.s
+	@echo ... M._Capital_or_Small_or_Digit.obj
+	@echo ... M._Capital_or_Small_or_Digit.i
+	@echo ... M._Capital_or_Small_or_Digit.s
 .PHONY : help
 
 
