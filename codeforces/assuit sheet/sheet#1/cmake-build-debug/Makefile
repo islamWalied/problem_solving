@@ -245,6 +245,19 @@ J/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\J.dir\build.make CMakeFiles/J.dir/build
 .PHONY : J/fast
 
+#=============================================================================
+# Target rules for targets named K
+
+# Build rule for target.
+K : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 K
+.PHONY : K
+
+# fast build rule for target.
+K/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K.dir\build.make CMakeFiles/K.dir/build
+.PHONY : K/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -485,6 +498,30 @@ J._Multiples.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\J.dir\build.make CMakeFiles/J.dir/J._Multiples.cpp.s
 .PHONY : J._Multiples.cpp.s
 
+K._Max_and_Min.obj: K._Max_and_Min.cpp.obj
+.PHONY : K._Max_and_Min.obj
+
+# target to build an object file
+K._Max_and_Min.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K.dir\build.make CMakeFiles/K.dir/K._Max_and_Min.cpp.obj
+.PHONY : K._Max_and_Min.cpp.obj
+
+K._Max_and_Min.i: K._Max_and_Min.cpp.i
+.PHONY : K._Max_and_Min.i
+
+# target to preprocess a source file
+K._Max_and_Min.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K.dir\build.make CMakeFiles/K.dir/K._Max_and_Min.cpp.i
+.PHONY : K._Max_and_Min.cpp.i
+
+K._Max_and_Min.s: K._Max_and_Min.cpp.s
+.PHONY : K._Max_and_Min.s
+
+# target to generate assembly for a file
+K._Max_and_Min.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\K.dir\build.make CMakeFiles/K.dir/K._Max_and_Min.cpp.s
+.PHONY : K._Max_and_Min.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -503,6 +540,7 @@ help:
 	@echo ... H
 	@echo ... I
 	@echo ... J
+	@echo ... K
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -533,6 +571,9 @@ help:
 	@echo ... J._Multiples.obj
 	@echo ... J._Multiples.i
 	@echo ... J._Multiples.s
+	@echo ... K._Max_and_Min.obj
+	@echo ... K._Max_and_Min.i
+	@echo ... K._Max_and_Min.s
 .PHONY : help
 
 
