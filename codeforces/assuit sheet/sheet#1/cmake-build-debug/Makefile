@@ -323,6 +323,19 @@ P/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P.dir\build.make CMakeFiles/P.dir/build
 .PHONY : P/fast
 
+#=============================================================================
+# Target rules for targets named Q
+
+# Build rule for target.
+Q : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Q
+.PHONY : Q
+
+# fast build rule for target.
+Q/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q.dir\build.make CMakeFiles/Q.dir/build
+.PHONY : Q/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -707,6 +720,30 @@ P._First_digit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P.dir\build.make CMakeFiles/P.dir/P._First_digit.cpp.s
 .PHONY : P._First_digit.cpp.s
 
+Q._Coordinates_of_a_Point.obj: Q._Coordinates_of_a_Point.cpp.obj
+.PHONY : Q._Coordinates_of_a_Point.obj
+
+# target to build an object file
+Q._Coordinates_of_a_Point.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q.dir\build.make CMakeFiles/Q.dir/Q._Coordinates_of_a_Point.cpp.obj
+.PHONY : Q._Coordinates_of_a_Point.cpp.obj
+
+Q._Coordinates_of_a_Point.i: Q._Coordinates_of_a_Point.cpp.i
+.PHONY : Q._Coordinates_of_a_Point.i
+
+# target to preprocess a source file
+Q._Coordinates_of_a_Point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q.dir\build.make CMakeFiles/Q.dir/Q._Coordinates_of_a_Point.cpp.i
+.PHONY : Q._Coordinates_of_a_Point.cpp.i
+
+Q._Coordinates_of_a_Point.s: Q._Coordinates_of_a_Point.cpp.s
+.PHONY : Q._Coordinates_of_a_Point.s
+
+# target to generate assembly for a file
+Q._Coordinates_of_a_Point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q.dir\build.make CMakeFiles/Q.dir/Q._Coordinates_of_a_Point.cpp.s
+.PHONY : Q._Coordinates_of_a_Point.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -731,6 +768,7 @@ help:
 	@echo ... N
 	@echo ... O
 	@echo ... P
+	@echo ... Q
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -779,6 +817,9 @@ help:
 	@echo ... P._First_digit.obj
 	@echo ... P._First_digit.i
 	@echo ... P._First_digit.s
+	@echo ... Q._Coordinates_of_a_Point.obj
+	@echo ... Q._Coordinates_of_a_Point.i
+	@echo ... Q._Coordinates_of_a_Point.s
 .PHONY : help
 
 

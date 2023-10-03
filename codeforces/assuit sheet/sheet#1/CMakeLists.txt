@@ -19,4 +19,5 @@ add_executable(M "M. Capital or Small or Digit.cpp")
 add_executable(N "N. Char.cpp")
 add_executable(O "O. Calculator.cpp")
 add_executable(P "P. First digit.cpp")
+add_executable(Q "Q. Coordinates of a Point.cpp")
 
