@@ -31,7 +31,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					]
 				}
 			],
@@ -62,7 +63,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					]
 				}
 			],
@@ -185,6 +187,13 @@
 					"id" : "Q::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Q-Debug-e96e7966a0bad4d68147.json",
 					"name" : "Q",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "R::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-R-Debug-5f7a75a3f254a55c1eea.json",
+					"name" : "R",
 					"projectIndex" : 0
 				}
 			]

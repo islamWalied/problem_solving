@@ -336,6 +336,19 @@ Q/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q.dir\build.make CMakeFiles/Q.dir/build
 .PHONY : Q/fast
 
+#=============================================================================
+# Target rules for targets named R
+
+# Build rule for target.
+R : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 R
+.PHONY : R
+
+# fast build rule for target.
+R/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\R.dir\build.make CMakeFiles/R.dir/build
+.PHONY : R/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -744,6 +757,30 @@ Q._Coordinates_of_a_Point.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Q.dir\build.make CMakeFiles/Q.dir/Q._Coordinates_of_a_Point.cpp.s
 .PHONY : Q._Coordinates_of_a_Point.cpp.s
 
+R._Age_in_Days.obj: R._Age_in_Days.cpp.obj
+.PHONY : R._Age_in_Days.obj
+
+# target to build an object file
+R._Age_in_Days.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\R.dir\build.make CMakeFiles/R.dir/R._Age_in_Days.cpp.obj
+.PHONY : R._Age_in_Days.cpp.obj
+
+R._Age_in_Days.i: R._Age_in_Days.cpp.i
+.PHONY : R._Age_in_Days.i
+
+# target to preprocess a source file
+R._Age_in_Days.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\R.dir\build.make CMakeFiles/R.dir/R._Age_in_Days.cpp.i
+.PHONY : R._Age_in_Days.cpp.i
+
+R._Age_in_Days.s: R._Age_in_Days.cpp.s
+.PHONY : R._Age_in_Days.s
+
+# target to generate assembly for a file
+R._Age_in_Days.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\R.dir\build.make CMakeFiles/R.dir/R._Age_in_Days.cpp.s
+.PHONY : R._Age_in_Days.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -769,6 +806,7 @@ help:
 	@echo ... O
 	@echo ... P
 	@echo ... Q
+	@echo ... R
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -820,6 +858,9 @@ help:
 	@echo ... Q._Coordinates_of_a_Point.obj
 	@echo ... Q._Coordinates_of_a_Point.i
 	@echo ... Q._Coordinates_of_a_Point.s
+	@echo ... R._Age_in_Days.obj
+	@echo ... R._Age_in_Days.i
+	@echo ... R._Age_in_Days.s
 .PHONY : help
 
 
