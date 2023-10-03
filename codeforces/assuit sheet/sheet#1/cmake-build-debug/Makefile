@@ -349,6 +349,19 @@ R/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\R.dir\build.make CMakeFiles/R.dir/build
 .PHONY : R/fast
 
+#=============================================================================
+# Target rules for targets named S
+
+# Build rule for target.
+S : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 S
+.PHONY : S
+
+# fast build rule for target.
+S/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S.dir\build.make CMakeFiles/S.dir/build
+.PHONY : S/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -781,6 +794,30 @@ R._Age_in_Days.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\R.dir\build.make CMakeFiles/R.dir/R._Age_in_Days.cpp.s
 .PHONY : R._Age_in_Days.cpp.s
 
+S._Interval.obj: S._Interval.cpp.obj
+.PHONY : S._Interval.obj
+
+# target to build an object file
+S._Interval.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S.dir\build.make CMakeFiles/S.dir/S._Interval.cpp.obj
+.PHONY : S._Interval.cpp.obj
+
+S._Interval.i: S._Interval.cpp.i
+.PHONY : S._Interval.i
+
+# target to preprocess a source file
+S._Interval.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S.dir\build.make CMakeFiles/S.dir/S._Interval.cpp.i
+.PHONY : S._Interval.cpp.i
+
+S._Interval.s: S._Interval.cpp.s
+.PHONY : S._Interval.s
+
+# target to generate assembly for a file
+S._Interval.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\S.dir\build.make CMakeFiles/S.dir/S._Interval.cpp.s
+.PHONY : S._Interval.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -807,6 +844,7 @@ help:
 	@echo ... P
 	@echo ... Q
 	@echo ... R
+	@echo ... S
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -861,6 +899,9 @@ help:
 	@echo ... R._Age_in_Days.obj
 	@echo ... R._Age_in_Days.i
 	@echo ... R._Age_in_Days.s
+	@echo ... S._Interval.obj
+	@echo ... S._Interval.i
+	@echo ... S._Interval.s
 .PHONY : help
 
 

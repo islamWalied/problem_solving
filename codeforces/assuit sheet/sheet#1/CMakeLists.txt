@@ -21,4 +21,5 @@ add_executable(O "O. Calculator.cpp")
 add_executable(P "P. First digit.cpp")
 add_executable(Q "Q. Coordinates of a Point.cpp")
 add_executable(R "R. Age in Days.cpp")
+add_executable(S "S. Interval.cpp")
 
