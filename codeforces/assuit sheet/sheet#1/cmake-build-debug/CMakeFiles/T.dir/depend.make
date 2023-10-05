@@ -1,2 +1,2 @@
-# Empty compiler generated dependencies file for S.
+# Empty dependencies file for T.
 # This may be replaced when dependencies are built.

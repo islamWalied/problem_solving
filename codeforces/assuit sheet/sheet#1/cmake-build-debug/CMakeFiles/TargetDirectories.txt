@@ -17,5 +17,6 @@ C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#1/cmake-build-debug
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#1/cmake-build-debug/CMakeFiles/Q.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#1/cmake-build-debug/CMakeFiles/R.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#1/cmake-build-debug/CMakeFiles/S.dir
+C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#1/cmake-build-debug/CMakeFiles/T.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

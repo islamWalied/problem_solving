@@ -362,6 +362,19 @@ S/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\S.dir\build.make CMakeFiles/S.dir/build
 .PHONY : S/fast
 
+#=============================================================================
+# Target rules for targets named T
+
+# Build rule for target.
+T : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 T
+.PHONY : T
+
+# fast build rule for target.
+T/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T.dir\build.make CMakeFiles/T.dir/build
+.PHONY : T/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -818,6 +831,30 @@ S._Interval.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\S.dir\build.make CMakeFiles/S.dir/S._Interval.cpp.s
 .PHONY : S._Interval.cpp.s
 
+T._Sort_Numbers.obj: T._Sort_Numbers.cpp.obj
+.PHONY : T._Sort_Numbers.obj
+
+# target to build an object file
+T._Sort_Numbers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T.dir\build.make CMakeFiles/T.dir/T._Sort_Numbers.cpp.obj
+.PHONY : T._Sort_Numbers.cpp.obj
+
+T._Sort_Numbers.i: T._Sort_Numbers.cpp.i
+.PHONY : T._Sort_Numbers.i
+
+# target to preprocess a source file
+T._Sort_Numbers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T.dir\build.make CMakeFiles/T.dir/T._Sort_Numbers.cpp.i
+.PHONY : T._Sort_Numbers.cpp.i
+
+T._Sort_Numbers.s: T._Sort_Numbers.cpp.s
+.PHONY : T._Sort_Numbers.s
+
+# target to generate assembly for a file
+T._Sort_Numbers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\T.dir\build.make CMakeFiles/T.dir/T._Sort_Numbers.cpp.s
+.PHONY : T._Sort_Numbers.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -845,6 +882,7 @@ help:
 	@echo ... Q
 	@echo ... R
 	@echo ... S
+	@echo ... T
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -902,6 +940,9 @@ help:
 	@echo ... S._Interval.obj
 	@echo ... S._Interval.i
 	@echo ... S._Interval.s
+	@echo ... T._Sort_Numbers.obj
+	@echo ... T._Sort_Numbers.i
+	@echo ... T._Sort_Numbers.s
 .PHONY : help
 
 
