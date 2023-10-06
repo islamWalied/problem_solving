@@ -414,6 +414,19 @@ W/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\W.dir\build.make CMakeFiles/W.dir/build
 .PHONY : W/fast
 
+#=============================================================================
+# Target rules for targets named X
+
+# Build rule for target.
+X : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 X
+.PHONY : X
+
+# fast build rule for target.
+X/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\X.dir\build.make CMakeFiles/X.dir/build
+.PHONY : X/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -966,6 +979,30 @@ W._Mathematical_Expression.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\W.dir\build.make CMakeFiles/W.dir/W._Mathematical_Expression.cpp.s
 .PHONY : W._Mathematical_Expression.cpp.s
 
+X._Two_intervals.obj: X._Two_intervals.cpp.obj
+.PHONY : X._Two_intervals.obj
+
+# target to build an object file
+X._Two_intervals.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\X.dir\build.make CMakeFiles/X.dir/X._Two_intervals.cpp.obj
+.PHONY : X._Two_intervals.cpp.obj
+
+X._Two_intervals.i: X._Two_intervals.cpp.i
+.PHONY : X._Two_intervals.i
+
+# target to preprocess a source file
+X._Two_intervals.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\X.dir\build.make CMakeFiles/X.dir/X._Two_intervals.cpp.i
+.PHONY : X._Two_intervals.cpp.i
+
+X._Two_intervals.s: X._Two_intervals.cpp.s
+.PHONY : X._Two_intervals.s
+
+# target to generate assembly for a file
+X._Two_intervals.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\X.dir\build.make CMakeFiles/X.dir/X._Two_intervals.cpp.s
+.PHONY : X._Two_intervals.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -997,6 +1034,7 @@ help:
 	@echo ... U
 	@echo ... V
 	@echo ... W
+	@echo ... X
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -1066,6 +1104,9 @@ help:
 	@echo ... W._Mathematical_Expression.obj
 	@echo ... W._Mathematical_Expression.i
 	@echo ... W._Mathematical_Expression.s
+	@echo ... X._Two_intervals.obj
+	@echo ... X._Two_intervals.i
+	@echo ... X._Two_intervals.s
 .PHONY : help
 
 
