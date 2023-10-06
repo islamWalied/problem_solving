@@ -25,4 +25,5 @@ add_executable(S "S. Interval.cpp")
 add_executable(T "T. Sort Numbers.cpp")
 add_executable(U "U. Float or int.cpp")
 add_executable(V "V. Comparison.cpp")
+add_executable(W "W. Mathematical Expression.cpp")
 

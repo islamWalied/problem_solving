@@ -401,6 +401,19 @@ V/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\V.dir\build.make CMakeFiles/V.dir/build
 .PHONY : V/fast
 
+#=============================================================================
+# Target rules for targets named W
+
+# Build rule for target.
+W : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 W
+.PHONY : W
+
+# fast build rule for target.
+W/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\W.dir\build.make CMakeFiles/W.dir/build
+.PHONY : W/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -929,6 +942,30 @@ V._Comparison.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\V.dir\build.make CMakeFiles/V.dir/V._Comparison.cpp.s
 .PHONY : V._Comparison.cpp.s
 
+W._Mathematical_Expression.obj: W._Mathematical_Expression.cpp.obj
+.PHONY : W._Mathematical_Expression.obj
+
+# target to build an object file
+W._Mathematical_Expression.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\W.dir\build.make CMakeFiles/W.dir/W._Mathematical_Expression.cpp.obj
+.PHONY : W._Mathematical_Expression.cpp.obj
+
+W._Mathematical_Expression.i: W._Mathematical_Expression.cpp.i
+.PHONY : W._Mathematical_Expression.i
+
+# target to preprocess a source file
+W._Mathematical_Expression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\W.dir\build.make CMakeFiles/W.dir/W._Mathematical_Expression.cpp.i
+.PHONY : W._Mathematical_Expression.cpp.i
+
+W._Mathematical_Expression.s: W._Mathematical_Expression.cpp.s
+.PHONY : W._Mathematical_Expression.s
+
+# target to generate assembly for a file
+W._Mathematical_Expression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\W.dir\build.make CMakeFiles/W.dir/W._Mathematical_Expression.cpp.s
+.PHONY : W._Mathematical_Expression.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -959,6 +996,7 @@ help:
 	@echo ... T
 	@echo ... U
 	@echo ... V
+	@echo ... W
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -1025,6 +1063,9 @@ help:
 	@echo ... V._Comparison.obj
 	@echo ... V._Comparison.i
 	@echo ... V._Comparison.s
+	@echo ... W._Mathematical_Expression.obj
+	@echo ... W._Mathematical_Expression.i
+	@echo ... W._Mathematical_Expression.s
 .PHONY : help
 
 
