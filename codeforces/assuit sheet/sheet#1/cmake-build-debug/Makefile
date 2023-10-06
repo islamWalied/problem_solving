@@ -427,6 +427,32 @@ X/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\X.dir\build.make CMakeFiles/X.dir/build
 .PHONY : X/fast
 
+#=============================================================================
+# Target rules for targets named Y
+
+# Build rule for target.
+Y : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Y
+.PHONY : Y
+
+# fast build rule for target.
+Y/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Y.dir\build.make CMakeFiles/Y.dir/build
+.PHONY : Y/fast
+
+#=============================================================================
+# Target rules for targets named Z
+
+# Build rule for target.
+Z : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Z
+.PHONY : Z
+
+# fast build rule for target.
+Z/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z.dir\build.make CMakeFiles/Z.dir/build
+.PHONY : Z/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -1003,6 +1029,54 @@ X._Two_intervals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\X.dir\build.make CMakeFiles/X.dir/X._Two_intervals.cpp.s
 .PHONY : X._Two_intervals.cpp.s
 
+Y._The_last_2_digits.obj: Y._The_last_2_digits.cpp.obj
+.PHONY : Y._The_last_2_digits.obj
+
+# target to build an object file
+Y._The_last_2_digits.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Y.dir\build.make CMakeFiles/Y.dir/Y._The_last_2_digits.cpp.obj
+.PHONY : Y._The_last_2_digits.cpp.obj
+
+Y._The_last_2_digits.i: Y._The_last_2_digits.cpp.i
+.PHONY : Y._The_last_2_digits.i
+
+# target to preprocess a source file
+Y._The_last_2_digits.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Y.dir\build.make CMakeFiles/Y.dir/Y._The_last_2_digits.cpp.i
+.PHONY : Y._The_last_2_digits.cpp.i
+
+Y._The_last_2_digits.s: Y._The_last_2_digits.cpp.s
+.PHONY : Y._The_last_2_digits.s
+
+# target to generate assembly for a file
+Y._The_last_2_digits.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Y.dir\build.make CMakeFiles/Y.dir/Y._The_last_2_digits.cpp.s
+.PHONY : Y._The_last_2_digits.cpp.s
+
+Z._Hard_Compare.obj: Z._Hard_Compare.cpp.obj
+.PHONY : Z._Hard_Compare.obj
+
+# target to build an object file
+Z._Hard_Compare.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z.dir\build.make CMakeFiles/Z.dir/Z._Hard_Compare.cpp.obj
+.PHONY : Z._Hard_Compare.cpp.obj
+
+Z._Hard_Compare.i: Z._Hard_Compare.cpp.i
+.PHONY : Z._Hard_Compare.i
+
+# target to preprocess a source file
+Z._Hard_Compare.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z.dir\build.make CMakeFiles/Z.dir/Z._Hard_Compare.cpp.i
+.PHONY : Z._Hard_Compare.cpp.i
+
+Z._Hard_Compare.s: Z._Hard_Compare.cpp.s
+.PHONY : Z._Hard_Compare.s
+
+# target to generate assembly for a file
+Z._Hard_Compare.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z.dir\build.make CMakeFiles/Z.dir/Z._Hard_Compare.cpp.s
+.PHONY : Z._Hard_Compare.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1035,6 +1109,8 @@ help:
 	@echo ... V
 	@echo ... W
 	@echo ... X
+	@echo ... Y
+	@echo ... Z
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -1107,6 +1183,12 @@ help:
 	@echo ... X._Two_intervals.obj
 	@echo ... X._Two_intervals.i
 	@echo ... X._Two_intervals.s
+	@echo ... Y._The_last_2_digits.obj
+	@echo ... Y._The_last_2_digits.i
+	@echo ... Y._The_last_2_digits.s
+	@echo ... Z._Hard_Compare.obj
+	@echo ... Z._Hard_Compare.i
+	@echo ... Z._Hard_Compare.s
 .PHONY : help
 
 

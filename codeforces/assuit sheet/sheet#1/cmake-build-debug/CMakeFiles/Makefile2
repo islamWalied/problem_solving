@@ -86,6 +86,8 @@ all: CMakeFiles/U.dir/all
 all: CMakeFiles/V.dir/all
 all: CMakeFiles/W.dir/all
 all: CMakeFiles/X.dir/all
+all: CMakeFiles/Y.dir/all
+all: CMakeFiles/Z.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -117,6 +119,8 @@ clean: CMakeFiles/U.dir/clean
 clean: CMakeFiles/V.dir/clean
 clean: CMakeFiles/W.dir/clean
 clean: CMakeFiles/X.dir/clean
+clean: CMakeFiles/Y.dir/clean
+clean: CMakeFiles/Z.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -742,6 +746,58 @@ X : CMakeFiles/X.dir/rule
 CMakeFiles/X.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\X.dir\build.make CMakeFiles/X.dir/clean
 .PHONY : CMakeFiles/X.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Y.dir
+
+# All Build rule for target.
+CMakeFiles/Y.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Y.dir\build.make CMakeFiles/Y.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Y.dir\build.make CMakeFiles/Y.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" --progress-num=49,50 "Built target Y"
+.PHONY : CMakeFiles/Y.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Y.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Y.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Y.dir/rule
+
+# Convenience name for target.
+Y : CMakeFiles/Y.dir/rule
+.PHONY : Y
+
+# clean rule for target.
+CMakeFiles/Y.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Y.dir\build.make CMakeFiles/Y.dir/clean
+.PHONY : CMakeFiles/Y.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Z.dir
+
+# All Build rule for target.
+CMakeFiles/Z.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z.dir\build.make CMakeFiles/Z.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z.dir\build.make CMakeFiles/Z.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" --progress-num=51,52 "Built target Z"
+.PHONY : CMakeFiles/Z.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Z.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Z.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Z.dir/rule
+
+# Convenience name for target.
+Z : CMakeFiles/Z.dir/rule
+.PHONY : Z
+
+# clean rule for target.
+CMakeFiles/Z.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Z.dir\build.make CMakeFiles/Z.dir/clean
+.PHONY : CMakeFiles/Z.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -27,4 +27,6 @@ add_executable(U "U. Float or int.cpp")
 add_executable(V "V. Comparison.cpp")
 add_executable(W "W. Mathematical Expression.cpp")
 add_executable(X "X. Two intervals.cpp")
+add_executable(Y "Y. The last 2 digits.cpp")
+add_executable(Z "Z. Hard Compare.cpp")
 
