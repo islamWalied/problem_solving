@@ -388,6 +388,19 @@ U/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\U.dir\build.make CMakeFiles/U.dir/build
 .PHONY : U/fast
 
+#=============================================================================
+# Target rules for targets named V
+
+# Build rule for target.
+V : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 V
+.PHONY : V
+
+# fast build rule for target.
+V/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\V.dir\build.make CMakeFiles/V.dir/build
+.PHONY : V/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -892,6 +905,30 @@ U._Float_or_int.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\U.dir\build.make CMakeFiles/U.dir/U._Float_or_int.cpp.s
 .PHONY : U._Float_or_int.cpp.s
 
+V._Comparison.obj: V._Comparison.cpp.obj
+.PHONY : V._Comparison.obj
+
+# target to build an object file
+V._Comparison.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\V.dir\build.make CMakeFiles/V.dir/V._Comparison.cpp.obj
+.PHONY : V._Comparison.cpp.obj
+
+V._Comparison.i: V._Comparison.cpp.i
+.PHONY : V._Comparison.i
+
+# target to preprocess a source file
+V._Comparison.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\V.dir\build.make CMakeFiles/V.dir/V._Comparison.cpp.i
+.PHONY : V._Comparison.cpp.i
+
+V._Comparison.s: V._Comparison.cpp.s
+.PHONY : V._Comparison.s
+
+# target to generate assembly for a file
+V._Comparison.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\V.dir\build.make CMakeFiles/V.dir/V._Comparison.cpp.s
+.PHONY : V._Comparison.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -921,6 +958,7 @@ help:
 	@echo ... S
 	@echo ... T
 	@echo ... U
+	@echo ... V
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -984,6 +1022,9 @@ help:
 	@echo ... U._Float_or_int.obj
 	@echo ... U._Float_or_int.i
 	@echo ... U._Float_or_int.s
+	@echo ... V._Comparison.obj
+	@echo ... V._Comparison.i
+	@echo ... V._Comparison.s
 .PHONY : help
 
 
