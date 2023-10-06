@@ -82,6 +82,7 @@ all: CMakeFiles/Q.dir/all
 all: CMakeFiles/R.dir/all
 all: CMakeFiles/S.dir/all
 all: CMakeFiles/T.dir/all
+all: CMakeFiles/U.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -109,6 +110,7 @@ clean: CMakeFiles/Q.dir/clean
 clean: CMakeFiles/R.dir/clean
 clean: CMakeFiles/S.dir/clean
 clean: CMakeFiles/T.dir/clean
+clean: CMakeFiles/U.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -630,6 +632,32 @@ T : CMakeFiles/T.dir/rule
 CMakeFiles/T.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T.dir\build.make CMakeFiles/T.dir/clean
 .PHONY : CMakeFiles/T.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/U.dir
+
+# All Build rule for target.
+CMakeFiles/U.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\U.dir\build.make CMakeFiles/U.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\U.dir\build.make CMakeFiles/U.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" --progress-num=41,42 "Built target U"
+.PHONY : CMakeFiles/U.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/U.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/U.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#1\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/U.dir/rule
+
+# Convenience name for target.
+U : CMakeFiles/U.dir/rule
+.PHONY : U
+
+# clean rule for target.
+CMakeFiles/U.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\U.dir\build.make CMakeFiles/U.dir/clean
+.PHONY : CMakeFiles/U.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

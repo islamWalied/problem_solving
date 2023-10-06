@@ -23,4 +23,5 @@ add_executable(Q "Q. Coordinates of a Point.cpp")
 add_executable(R "R. Age in Days.cpp")
 add_executable(S "S. Interval.cpp")
 add_executable(T "T. Sort Numbers.cpp")
+add_executable(U "U. Float or int.cpp")
 

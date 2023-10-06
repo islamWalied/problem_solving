@@ -375,6 +375,19 @@ T/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T.dir\build.make CMakeFiles/T.dir/build
 .PHONY : T/fast
 
+#=============================================================================
+# Target rules for targets named U
+
+# Build rule for target.
+U : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 U
+.PHONY : U
+
+# fast build rule for target.
+U/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\U.dir\build.make CMakeFiles/U.dir/build
+.PHONY : U/fast
+
 A._Say_Hello_With_C++.obj: A._Say_Hello_With_C++.cpp.obj
 .PHONY : A._Say_Hello_With_C++.obj
 
@@ -855,6 +868,30 @@ T._Sort_Numbers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\T.dir\build.make CMakeFiles/T.dir/T._Sort_Numbers.cpp.s
 .PHONY : T._Sort_Numbers.cpp.s
 
+U._Float_or_int.obj: U._Float_or_int.cpp.obj
+.PHONY : U._Float_or_int.obj
+
+# target to build an object file
+U._Float_or_int.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\U.dir\build.make CMakeFiles/U.dir/U._Float_or_int.cpp.obj
+.PHONY : U._Float_or_int.cpp.obj
+
+U._Float_or_int.i: U._Float_or_int.cpp.i
+.PHONY : U._Float_or_int.i
+
+# target to preprocess a source file
+U._Float_or_int.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\U.dir\build.make CMakeFiles/U.dir/U._Float_or_int.cpp.i
+.PHONY : U._Float_or_int.cpp.i
+
+U._Float_or_int.s: U._Float_or_int.cpp.s
+.PHONY : U._Float_or_int.s
+
+# target to generate assembly for a file
+U._Float_or_int.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\U.dir\build.make CMakeFiles/U.dir/U._Float_or_int.cpp.s
+.PHONY : U._Float_or_int.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -883,6 +920,7 @@ help:
 	@echo ... R
 	@echo ... S
 	@echo ... T
+	@echo ... U
 	@echo ... A._Say_Hello_With_C++.obj
 	@echo ... A._Say_Hello_With_C++.i
 	@echo ... A._Say_Hello_With_C++.s
@@ -943,6 +981,9 @@ help:
 	@echo ... T._Sort_Numbers.obj
 	@echo ... T._Sort_Numbers.i
 	@echo ... T._Sort_Numbers.s
+	@echo ... U._Float_or_int.obj
+	@echo ... U._Float_or_int.i
+	@echo ... U._Float_or_int.s
 .PHONY : help
 
 
