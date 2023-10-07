@@ -8,8 +8,10 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="sheet2loop" targetName="G" />
       <config projectName="sheet2loop" targetName="B" />
       <config projectName="sheet2loop" targetName="A" />
+      <config projectName="sheet2loop" targetName="F" />
       <config projectName="sheet2loop" targetName="E" />
       <config projectName="sheet2loop" targetName="D" />
       <config projectName="sheet2loop" targetName="C" />
@@ -29,6 +31,14 @@
       <change beforePath="$PROJECT_DIR$/../sheet#1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../sheet#1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c81ee52c3f8d23faf91e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-07T14-39-33-0526.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +83,7 @@
       <recent name="C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#2 (loop)" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.F">
+  <component name="RunManager" selected="CMake Application.G">
     <configuration name="A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sheet2loop" TARGET_NAME="A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sheet2loop" RUN_TARGET_NAME="A">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -104,6 +114,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="G" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sheet2loop" TARGET_NAME="G" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sheet2loop" RUN_TARGET_NAME="G">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -116,6 +131,7 @@
       <item itemvalue="CMake Application.D" />
       <item itemvalue="CMake Application.E" />
       <item itemvalue="CMake Application.F" />
+      <item itemvalue="CMake Application.G" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -129,7 +145,7 @@
       <workItem from="1696683009949" duration="9000" />
       <workItem from="1696683162697" duration="47000" />
       <workItem from="1696683223885" duration="95000" />
-      <workItem from="1696683346045" duration="3612000" />
+      <workItem from="1696683346045" duration="4121000" />
     </task>
     <servers />
   </component>

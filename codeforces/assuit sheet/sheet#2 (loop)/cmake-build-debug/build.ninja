@@ -238,6 +238,39 @@ build F.exe: CXX_EXECUTABLE_LINKER__F_Debug CMakeFiles/F.dir/F._Multiplication_t
   TARGET_IMPLIB = libF.dll.a
   TARGET_PDB = F.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target G
+
+
+#############################################
+# Order-only phony target for G
+
+build cmake_object_order_depends_target_G: phony || CMakeFiles/G.dir
+
+build CMakeFiles/G.dir/G._Factorial.cpp.obj: CXX_COMPILER__G_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#2$ (loop)/G.$ Factorial.cpp || cmake_object_order_depends_target_G
+  DEP_FILE = CMakeFiles\G.dir\G._Factorial.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\G.dir
+  OBJECT_FILE_DIR = CMakeFiles\G.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target G
+
+
+#############################################
+# Link the executable G.exe
+
+build G.exe: CXX_EXECUTABLE_LINKER__G_Debug CMakeFiles/G.dir/G._Factorial.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\G.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = G.exe
+  TARGET_IMPLIB = libG.dll.a
+  TARGET_PDB = G.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -276,6 +309,8 @@ build E: phony E.exe
 
 build F: phony F.exe
 
+build G: phony G.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -284,7 +319,7 @@ build F: phony F.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#2 (loop)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe
 
 # =============================================================================
 # Built-in targets
