@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(A "A. 1 to N.cpp")
 add_executable(B "B. Even Numbers.cpp")
+add_executable(C "C. Even, Odd, Positive and Negative .cpp")
