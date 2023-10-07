@@ -3,8 +3,9 @@
 using namespace std;
 
 int main() {
-    long long a;
-    for (int i = 0; i < a; ++i) {
+    long long a,x;
+    cin >> x;
+    for (int i = 0; i < x; ++i) {
         cin >> a;
         if(a == 1999) {
             cout << "Correct\n";
@@ -14,3 +15,4 @@ int main() {
             cout << "Wrong\n";
     }
 }
+
