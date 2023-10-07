@@ -10,6 +10,7 @@
     <generated>
       <config projectName="sheet2loop" targetName="B" />
       <config projectName="sheet2loop" targetName="A" />
+      <config projectName="sheet2loop" targetName="C" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -72,7 +73,7 @@
       <recent name="C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#2 (loop)" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.C">
+  <component name="RunManager" selected="CMake Application.D">
     <configuration name="A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sheet2loop" TARGET_NAME="A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sheet2loop" RUN_TARGET_NAME="A">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -88,6 +89,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sheet2loop" TARGET_NAME="D" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sheet2loop" RUN_TARGET_NAME="D">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -97,6 +103,7 @@
       <item itemvalue="CMake Application.A" />
       <item itemvalue="CMake Application.B" />
       <item itemvalue="CMake Application.C" />
+      <item itemvalue="CMake Application.D" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -110,7 +117,7 @@
       <workItem from="1696683009949" duration="9000" />
       <workItem from="1696683162697" duration="47000" />
       <workItem from="1696683223885" duration="95000" />
-      <workItem from="1696683346045" duration="2876000" />
+      <workItem from="1696683346045" duration="3186000" />
     </task>
     <servers />
   </component>
