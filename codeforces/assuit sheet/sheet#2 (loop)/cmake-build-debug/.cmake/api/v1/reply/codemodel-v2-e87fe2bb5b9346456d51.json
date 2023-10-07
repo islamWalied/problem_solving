@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "sheet2loop",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "A::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-A-Debug-01d600daa5c3a9c65b6a.json",
 					"name" : "A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-B-Debug-2867c09c9f275679fc84.json",
+					"name" : "B",
 					"projectIndex" : 0
 				}
 			]

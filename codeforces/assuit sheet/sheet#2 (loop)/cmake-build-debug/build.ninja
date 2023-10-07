@@ -73,6 +73,39 @@ build A.exe: CXX_EXECUTABLE_LINKER__A_Debug CMakeFiles/A.dir/A._1_to_N.cpp.obj
   TARGET_IMPLIB = libA.dll.a
   TARGET_PDB = A.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target B
+
+
+#############################################
+# Order-only phony target for B
+
+build cmake_object_order_depends_target_B: phony || CMakeFiles/B.dir
+
+build CMakeFiles/B.dir/B._Even_Numbers.cpp.obj: CXX_COMPILER__B_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#2$ (loop)/B.$ Even$ Numbers.cpp || cmake_object_order_depends_target_B
+  DEP_FILE = CMakeFiles\B.dir\B._Even_Numbers.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\B.dir
+  OBJECT_FILE_DIR = CMakeFiles\B.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target B
+
+
+#############################################
+# Link the executable B.exe
+
+build B.exe: CXX_EXECUTABLE_LINKER__B_Debug CMakeFiles/B.dir/B._Even_Numbers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = B.exe
+  TARGET_IMPLIB = libB.dll.a
+  TARGET_PDB = B.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build A: phony A.exe
 
+build B: phony B.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build A: phony A.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#2 (loop)/cmake-build-debug
 
-build all: phony A.exe
+build all: phony A.exe B.exe
 
 # =============================================================================
 # Built-in targets
