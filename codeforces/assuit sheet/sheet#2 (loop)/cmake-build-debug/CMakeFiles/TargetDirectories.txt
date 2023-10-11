@@ -23,5 +23,6 @@ C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#2 (loop)/cmake-buil
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#2 (loop)/cmake-build-debug/CMakeFiles/W.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#2 (loop)/cmake-build-debug/CMakeFiles/X.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#2 (loop)/cmake-build-debug/CMakeFiles/Y.dir
+C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#2 (loop)/cmake-build-debug/CMakeFiles/Z.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#2 (loop)/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#2 (loop)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
