@@ -700,6 +700,39 @@ build T.exe: CXX_EXECUTABLE_LINKER__T_Debug CMakeFiles/T.dir/T._Shape2.cpp.obj
   TARGET_IMPLIB = libT.dll.a
   TARGET_PDB = T.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target U
+
+
+#############################################
+# Order-only phony target for U
+
+build cmake_object_order_depends_target_U: phony || CMakeFiles/U.dir
+
+build CMakeFiles/U.dir/U._Some_Sums.cpp.obj: CXX_COMPILER__U_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#2$ (loop)/U.$ Some$ Sums.cpp || cmake_object_order_depends_target_U
+  DEP_FILE = CMakeFiles\U.dir\U._Some_Sums.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\U.dir
+  OBJECT_FILE_DIR = CMakeFiles\U.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target U
+
+
+#############################################
+# Link the executable U.exe
+
+build U.exe: CXX_EXECUTABLE_LINKER__U_Debug CMakeFiles/U.dir/U._Some_Sums.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\U.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = U.exe
+  TARGET_IMPLIB = libU.dll.a
+  TARGET_PDB = U.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -766,6 +799,8 @@ build S: phony S.exe
 
 build T: phony T.exe
 
+build U: phony U.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -774,7 +809,7 @@ build T: phony T.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#2 (loop)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe
 
 # =============================================================================
 # Built-in targets
