@@ -16,6 +16,8 @@
       <config projectName="sheet2loop" targetName="M" />
       <config projectName="sheet2loop" targetName="L" />
       <config projectName="sheet2loop" targetName="K" />
+      <config projectName="sheet2loop" targetName="Q" />
+      <config projectName="sheet2loop" targetName="P" />
       <config projectName="sheet2loop" targetName="O" />
       <config projectName="sheet2loop" targetName="B" />
       <config projectName="sheet2loop" targetName="A" />
@@ -39,7 +41,14 @@
       <change beforePath="$PROJECT_DIR$/../sheet#1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../sheet#1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-029a093750183cb2d260.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-11T05-39-22-0013.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +95,7 @@
       <recent name="C:\Users\islam\problem_solving\codeforces\assuit sheet\sheet#2 (loop)" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.P">
+  <component name="RunManager" selected="CMake Application.Q">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -172,6 +181,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sheet2loop" TARGET_NAME="Q" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sheet2loop" RUN_TARGET_NAME="Q">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.A" />
       <item itemvalue="CMake Application.B" />
@@ -189,6 +203,7 @@
       <item itemvalue="CMake Application.N" />
       <item itemvalue="CMake Application.O" />
       <item itemvalue="CMake Application.P" />
+      <item itemvalue="CMake Application.Q" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -205,7 +220,7 @@
       <workItem from="1696683346045" duration="7487000" />
       <workItem from="1696871879711" duration="1540000" />
       <workItem from="1696875453907" duration="578000" />
-      <workItem from="1697002739412" duration="23000" />
+      <workItem from="1697002739412" duration="452000" />
     </task>
     <servers />
   </component>
