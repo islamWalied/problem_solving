@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(A "A. Summation.cpp")
 add_executable(B "B. Searching.cpp")
+add_executable(C "C. Replacement.cpp")
