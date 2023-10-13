@@ -205,6 +205,39 @@ build E.exe: CXX_EXECUTABLE_LINKER__E_Debug CMakeFiles/E.dir/E._Lowest_Number.cp
   TARGET_IMPLIB = libE.dll.a
   TARGET_PDB = E.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target F
+
+
+#############################################
+# Order-only phony target for F
+
+build cmake_object_order_depends_target_F: phony || CMakeFiles/F.dir
+
+build CMakeFiles/F.dir/F._Reversing.cpp.obj: CXX_COMPILER__F_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#3$ (array)/F.$ Reversing.cpp || cmake_object_order_depends_target_F
+  DEP_FILE = CMakeFiles\F.dir\F._Reversing.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\F.dir
+  OBJECT_FILE_DIR = CMakeFiles\F.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target F
+
+
+#############################################
+# Link the executable F.exe
+
+build F.exe: CXX_EXECUTABLE_LINKER__F_Debug CMakeFiles/F.dir/F._Reversing.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\F.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = F.exe
+  TARGET_IMPLIB = libF.dll.a
+  TARGET_PDB = F.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -241,6 +274,8 @@ build D: phony D.exe
 
 build E: phony E.exe
 
+build F: phony F.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -249,7 +284,7 @@ build E: phony E.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe
 
 # =============================================================================
 # Built-in targets
