@@ -271,6 +271,39 @@ build G.exe: CXX_EXECUTABLE_LINKER__G_Debug CMakeFiles/G.dir/G._Palindrome_Array
   TARGET_IMPLIB = libG.dll.a
   TARGET_PDB = G.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target H
+
+
+#############################################
+# Order-only phony target for H
+
+build cmake_object_order_depends_target_H: phony || CMakeFiles/H.dir
+
+build CMakeFiles/H.dir/H._Sorting.cpp.obj: CXX_COMPILER__H_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#3$ (array)/H.$ Sorting.cpp || cmake_object_order_depends_target_H
+  DEP_FILE = CMakeFiles\H.dir\H._Sorting.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\H.dir
+  OBJECT_FILE_DIR = CMakeFiles\H.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target H
+
+
+#############################################
+# Link the executable H.exe
+
+build H.exe: CXX_EXECUTABLE_LINKER__H_Debug CMakeFiles/H.dir/H._Sorting.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\H.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = H.exe
+  TARGET_IMPLIB = libH.dll.a
+  TARGET_PDB = H.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -311,6 +344,8 @@ build F: phony F.exe
 
 build G: phony G.exe
 
+build H: phony H.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -319,7 +354,7 @@ build G: phony G.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe
 
 # =============================================================================
 # Built-in targets
