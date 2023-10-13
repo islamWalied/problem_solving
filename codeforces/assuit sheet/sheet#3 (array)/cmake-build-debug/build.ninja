@@ -370,6 +370,39 @@ build J.exe: CXX_EXECUTABLE_LINKER__J_Debug CMakeFiles/J.dir/J._Lucky_Array.cpp.
   TARGET_IMPLIB = libJ.dll.a
   TARGET_PDB = J.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target K
+
+
+#############################################
+# Order-only phony target for K
+
+build cmake_object_order_depends_target_K: phony || CMakeFiles/K.dir
+
+build CMakeFiles/K.dir/K._Sum_Digits.cpp.obj: CXX_COMPILER__K_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#3$ (array)/K.$ Sum$ Digits.cpp || cmake_object_order_depends_target_K
+  DEP_FILE = CMakeFiles\K.dir\K._Sum_Digits.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\K.dir
+  OBJECT_FILE_DIR = CMakeFiles\K.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target K
+
+
+#############################################
+# Link the executable K.exe
+
+build K.exe: CXX_EXECUTABLE_LINKER__K_Debug CMakeFiles/K.dir/K._Sum_Digits.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\K.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = K.exe
+  TARGET_IMPLIB = libK.dll.a
+  TARGET_PDB = K.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -416,6 +449,8 @@ build I: phony I.exe
 
 build J: phony J.exe
 
+build K: phony K.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -424,7 +459,7 @@ build J: phony J.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe
 
 # =============================================================================
 # Built-in targets
