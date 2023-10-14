@@ -19,8 +19,3 @@ int main() {
         cout <<  arr[i] << " ";
     }
 }
-void swap(int &a,int &y){
-    int temp = a;
-    a = y;
-    y = temp;
-}
