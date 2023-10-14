@@ -502,6 +502,39 @@ build N.exe: CXX_EXECUTABLE_LINKER__N_Debug CMakeFiles/N.dir/N._Check_Code.cpp.o
   TARGET_IMPLIB = libN.dll.a
   TARGET_PDB = N.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target O
+
+
+#############################################
+# Order-only phony target for O
+
+build cmake_object_order_depends_target_O: phony || CMakeFiles/O.dir
+
+build CMakeFiles/O.dir/O._Fibonacci.cpp.obj: CXX_COMPILER__O_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#3$ (array)/O.$ Fibonacci.cpp || cmake_object_order_depends_target_O
+  DEP_FILE = CMakeFiles\O.dir\O._Fibonacci.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\O.dir
+  OBJECT_FILE_DIR = CMakeFiles\O.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target O
+
+
+#############################################
+# Link the executable O.exe
+
+build O.exe: CXX_EXECUTABLE_LINKER__O_Debug CMakeFiles/O.dir/O._Fibonacci.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\O.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = O.exe
+  TARGET_IMPLIB = libO.dll.a
+  TARGET_PDB = O.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -556,6 +589,8 @@ build M: phony M.exe
 
 build N: phony N.exe
 
+build O: phony O.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -564,7 +599,7 @@ build N: phony N.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe
 
 # =============================================================================
 # Built-in targets
