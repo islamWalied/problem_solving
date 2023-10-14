@@ -24,8 +24,8 @@ int main() {
                     cout << max << " ";
                 }
             }
-            cout << endl;
         }
+        cout << endl;
     }
 }
 
