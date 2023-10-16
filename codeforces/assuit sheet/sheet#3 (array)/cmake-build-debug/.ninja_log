@@ -1,6 +1,7 @@
 # ninja log v5
 4	491	7191758555096372	CMakeFiles/T.dir/T._Matrix.cpp.obj	267f061a74585989
 1	531	7188822773176826	CMakeFiles/A.dir/A._Summation.cpp.obj	192827816ec5f57
+563	743	7191774818907169	U.exe	cfa3305c67d4f1ad
 533	702	7188822774830522	A.exe	3d5591b29c5ac7a0
 4	519	7188826149081453	CMakeFiles/B.dir/B._Searching.cpp.obj	1d6d92468fe2b5ba
 519	643	7188826150275336	B.exe	c436a7cbb40a0e1c
@@ -37,25 +38,4 @@
 509	638	7189796281233992	R.exe	ee42275917c4c513
 5	557	7191751564532216	CMakeFiles/S.dir/S._Search_In_Matrix.cpp.obj	de02159edf436bd3
 492	623	7191758556352439	T.exe	f654bf61eec53ab6
-1	738	7191763639615047	CMakeFiles/U.dir/U._Is_B_a_subsequence_of_A.cpp.obj	8dc59c62db48f8b0
-739	900	7191763641188602	U.exe	cfa3305c67d4f1ad
-5	623	7191766037559419	CMakeFiles/U.dir/U._Is_B_a_subsequence_of_A.cpp.obj	8dc59c62db48f8b0
-623	796	7191766039208647	U.exe	cfa3305c67d4f1ad
-4	469	7191771150329506	CMakeFiles/U.dir/U._Is_B_a_subsequence_of_A.cpp.obj	8dc59c62db48f8b0
-470	598	7191771151548002	U.exe	cfa3305c67d4f1ad
-4	479	7191771469704248	CMakeFiles/U.dir/U._Is_B_a_subsequence_of_A.cpp.obj	8dc59c62db48f8b0
-480	603	7191771470868813	U.exe	cfa3305c67d4f1ad
-5	490	7191771590500292	CMakeFiles/U.dir/U._Is_B_a_subsequence_of_A.cpp.obj	8dc59c62db48f8b0
-490	616	7191771591694291	U.exe	cfa3305c67d4f1ad
-3	492	7191772258297373	CMakeFiles/U.dir/U._Is_B_a_subsequence_of_A.cpp.obj	8dc59c62db48f8b0
-493	636	7191772259701340	U.exe	cfa3305c67d4f1ad
-4	489	7191772628764282	CMakeFiles/U.dir/U._Is_B_a_subsequence_of_A.cpp.obj	8dc59c62db48f8b0
-490	626	7191772630075962	U.exe	cfa3305c67d4f1ad
-4	495	7191772765476623	CMakeFiles/U.dir/U._Is_B_a_subsequence_of_A.cpp.obj	8dc59c62db48f8b0
-496	624	7191772766735384	U.exe	cfa3305c67d4f1ad
-5	523	7191773569760927	CMakeFiles/U.dir/U._Is_B_a_subsequence_of_A.cpp.obj	8dc59c62db48f8b0
-524	656	7191773571040721	U.exe	cfa3305c67d4f1ad
-4	471	7191773842296461	CMakeFiles/U.dir/U._Is_B_a_subsequence_of_A.cpp.obj	8dc59c62db48f8b0
-472	594	7191773843464231	U.exe	cfa3305c67d4f1ad
 5	562	7191774817294461	CMakeFiles/U.dir/U._Is_B_a_subsequence_of_A.cpp.obj	8dc59c62db48f8b0
-563	743	7191774818907169	U.exe	cfa3305c67d4f1ad
