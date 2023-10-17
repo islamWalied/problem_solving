@@ -799,6 +799,39 @@ build W.exe: CXX_EXECUTABLE_LINKER__W_Debug CMakeFiles/W.dir/W._Mirror_Array.cpp
   TARGET_IMPLIB = libW.dll.a
   TARGET_PDB = W.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Y
+
+
+#############################################
+# Order-only phony target for Y
+
+build cmake_object_order_depends_target_Y: phony || CMakeFiles/Y.dir
+
+build CMakeFiles/Y.dir/Y._Range_sum_query.cpp.obj: CXX_COMPILER__Y_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#3$ (array)/Y.$ Range$ sum$ query.cpp || cmake_object_order_depends_target_Y
+  DEP_FILE = CMakeFiles\Y.dir\Y._Range_sum_query.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Y.dir
+  OBJECT_FILE_DIR = CMakeFiles\Y.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Y
+
+
+#############################################
+# Link the executable Y.exe
+
+build Y.exe: CXX_EXECUTABLE_LINKER__Y_Debug CMakeFiles/Y.dir/Y._Range_sum_query.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Y.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Y.exe
+  TARGET_IMPLIB = libY.dll.a
+  TARGET_PDB = Y.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -871,6 +904,8 @@ build V: phony V.exe
 
 build W: phony W.exe
 
+build Y: phony Y.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -879,7 +914,7 @@ build W: phony W.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe Y.exe
 
 # =============================================================================
 # Built-in targets
