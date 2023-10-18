@@ -21,6 +21,7 @@ C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-bui
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug/CMakeFiles/U.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug/CMakeFiles/V.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug/CMakeFiles/W.dir
+C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug/CMakeFiles/X.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug/CMakeFiles/Y.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug/CMakeFiles/Z.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#3 (array)/cmake-build-debug/CMakeFiles/edit_cache.dir

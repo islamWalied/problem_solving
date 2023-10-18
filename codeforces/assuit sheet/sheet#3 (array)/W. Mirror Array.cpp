@@ -1,26 +1,22 @@
 #include <iostream>
-#include <vector>
 
+const long long N = 1e5;
 using namespace std;
-
-int main() {
-    int N, M;
-    cin >> N >> M;
-    vector<string> A(N);
-
-    // Input the 2D array
-    for (int i = 0; i < N; i++) {
-        cin >> A[i];
+int main(){
+    unsigned long long a,b = 0,x;
+    cin >> a >> b;
+    long long arr[a][b];
+    if (a >= 1 && a<=100 && b >=1&& b<=100) {
+        for (int i = 0; i < a; ++i) {
+            for (int j = 0; j < b; ++j) {
+                cin >> arr[i][j];
+            }
+        }
+        for (int i = 0; i < a; ++i) {
+            for (int j = b - 1; j >= 0; --j) {
+                cout << arr[i][j] << " ";
+            }
+            cout << endl;
+        }
     }
-
-    int X, Y;
-    cin >> X >> Y;
-
-    if (allNeighborsX(A, X, Y)) {
-        cout << "All neighbors of cell (" << X << ", " << Y << ") are 'x'." << endl;
-    } else {
-        cout << "Not all neighbors of cell (" << X << ", " << Y << ") are 'x'." << endl;
-    }
-
-    return 0;
 }

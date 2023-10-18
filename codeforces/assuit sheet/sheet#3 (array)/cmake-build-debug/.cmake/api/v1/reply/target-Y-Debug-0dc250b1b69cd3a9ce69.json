@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Z.exe"
+			"path" : "Y.exe"
 		},
 		{
-			"path" : "Z.pdb"
+			"path" : "Y.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "Z::@6890427a1f51a3e7e1df",
+	"id" : "Y::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Z",
-	"nameOnDisk" : "Z.exe",
+	"name" : "Y",
+	"nameOnDisk" : "Y.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Z. Binary Search.cpp",
+			"path" : "Y. Range sum query.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
