@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(A "A. Create A New String.cpp")
 add_executable(B "B. Let's use Getline.cpp")
+add_executable(C "C. Compare.cpp")
