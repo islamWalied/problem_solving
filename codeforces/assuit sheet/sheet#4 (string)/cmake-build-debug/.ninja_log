@@ -1,3 +1,7 @@
 # ninja log v5
 0	540	7193353408438299	CMakeFiles/A.dir/A._Create_A_New_String.cpp.obj	4334c069e9794a14
 543	719	7193353410152048	A.exe	da992bed3548bef0
+1	477	7193355355338292	CMakeFiles/B.dir/B._Let's_use_Getline.cpp.obj	1748fd46cec007df
+478	598	7193355356510074	B.exe	d347ee3d34368bca
+1	478	7193355948113659	CMakeFiles/B.dir/B._Let's_use_Getline.cpp.obj	1748fd46cec007df
+478	631	7193355949574175	B.exe	d347ee3d34368bca

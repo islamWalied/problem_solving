@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "sheet4string",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "A::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-A-Debug-207488e2151eb92be5c3.json",
 					"name" : "A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-B-Debug-09225bbf9d090fd7dfe2.json",
+					"name" : "B",
 					"projectIndex" : 0
 				}
 			]
