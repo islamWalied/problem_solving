@@ -139,6 +139,39 @@ build C.exe: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/C._Compare.cpp.obj
   TARGET_IMPLIB = libC.dll.a
   TARGET_PDB = C.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target D
+
+
+#############################################
+# Order-only phony target for D
+
+build cmake_object_order_depends_target_D: phony || CMakeFiles/D.dir
+
+build CMakeFiles/D.dir/D._Strings.cpp.obj: CXX_COMPILER__D_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#4$ (string)/D.$ Strings.cpp || cmake_object_order_depends_target_D
+  DEP_FILE = CMakeFiles\D.dir\D._Strings.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\D.dir
+  OBJECT_FILE_DIR = CMakeFiles\D.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D
+
+
+#############################################
+# Link the executable D.exe
+
+build D.exe: CXX_EXECUTABLE_LINKER__D_Debug CMakeFiles/D.dir/D._Strings.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D.exe
+  TARGET_IMPLIB = libD.dll.a
+  TARGET_PDB = D.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +204,8 @@ build B: phony B.exe
 
 build C: phony C.exe
 
+build D: phony D.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +214,7 @@ build C: phony C.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#4 (string)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe
+build all: phony A.exe B.exe C.exe D.exe
 
 # =============================================================================
 # Built-in targets
