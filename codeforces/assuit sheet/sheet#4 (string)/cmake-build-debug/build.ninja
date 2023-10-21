@@ -535,6 +535,39 @@ build O.exe: CXX_EXECUTABLE_LINKER__O_Debug CMakeFiles/O.dir/O._Sort_String.cpp.
   TARGET_IMPLIB = libO.dll.a
   TARGET_PDB = O.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target P
+
+
+#############################################
+# Order-only phony target for P
+
+build cmake_object_order_depends_target_P: phony || CMakeFiles/P.dir
+
+build CMakeFiles/P.dir/P._Count_Words.cpp.obj: CXX_COMPILER__P_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#4$ (string)/P.$ Count$ Words.cpp || cmake_object_order_depends_target_P
+  DEP_FILE = CMakeFiles\P.dir\P._Count_Words.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\P.dir
+  OBJECT_FILE_DIR = CMakeFiles\P.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target P
+
+
+#############################################
+# Link the executable P.exe
+
+build P.exe: CXX_EXECUTABLE_LINKER__P_Debug CMakeFiles/P.dir/P._Count_Words.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\P.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = P.exe
+  TARGET_IMPLIB = libP.dll.a
+  TARGET_PDB = P.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -591,6 +624,8 @@ build N: phony N.exe
 
 build O: phony O.exe
 
+build P: phony P.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -599,7 +634,7 @@ build O: phony O.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#4 (string)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe P.exe
 
 # =============================================================================
 # Built-in targets
