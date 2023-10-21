@@ -568,6 +568,39 @@ build P.exe: CXX_EXECUTABLE_LINKER__P_Debug CMakeFiles/P.dir/P._Count_Words.cpp.
   TARGET_IMPLIB = libP.dll.a
   TARGET_PDB = P.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Q
+
+
+#############################################
+# Order-only phony target for Q
+
+build cmake_object_order_depends_target_Q: phony || CMakeFiles/Q.dir
+
+build CMakeFiles/Q.dir/Q._Reverse_Words.cpp.obj: CXX_COMPILER__Q_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#4$ (string)/Q.$ Reverse$ Words.cpp || cmake_object_order_depends_target_Q
+  DEP_FILE = CMakeFiles\Q.dir\Q._Reverse_Words.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Q.dir
+  OBJECT_FILE_DIR = CMakeFiles\Q.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q
+
+
+#############################################
+# Link the executable Q.exe
+
+build Q.exe: CXX_EXECUTABLE_LINKER__Q_Debug CMakeFiles/Q.dir/Q._Reverse_Words.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Q.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Q.exe
+  TARGET_IMPLIB = libQ.dll.a
+  TARGET_PDB = Q.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -626,6 +659,8 @@ build O: phony O.exe
 
 build P: phony P.exe
 
+build Q: phony Q.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -634,7 +669,7 @@ build P: phony P.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#4 (string)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe P.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe P.exe Q.exe
 
 # =============================================================================
 # Built-in targets
