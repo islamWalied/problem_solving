@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(A "A. Add.cpp")
 add_executable(B "B. Print.cpp")
+add_executable(C "C. Wonderful Number.cpp")
