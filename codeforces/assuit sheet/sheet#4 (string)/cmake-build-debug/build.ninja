@@ -832,6 +832,39 @@ build X.exe: CXX_EXECUTABLE_LINKER__X_Debug CMakeFiles/X.dir/X._Comparison.cpp.o
   TARGET_IMPLIB = libX.dll.a
   TARGET_PDB = X.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Y
+
+
+#############################################
+# Order-only phony target for Y
+
+build cmake_object_order_depends_target_Y: phony || CMakeFiles/Y.dir
+
+build CMakeFiles/Y.dir/Y._Min_Cost_String.cpp.obj: CXX_COMPILER__Y_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#4$ (string)/Y.$ Min$ Cost$ String.cpp || cmake_object_order_depends_target_Y
+  DEP_FILE = CMakeFiles\Y.dir\Y._Min_Cost_String.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Y.dir
+  OBJECT_FILE_DIR = CMakeFiles\Y.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Y
+
+
+#############################################
+# Link the executable Y.exe
+
+build Y.exe: CXX_EXECUTABLE_LINKER__Y_Debug CMakeFiles/Y.dir/Y._Min_Cost_String.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Y.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Y.exe
+  TARGET_IMPLIB = libY.dll.a
+  TARGET_PDB = Y.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -906,6 +939,8 @@ build W: phony W.exe
 
 build X: phony X.exe
 
+build Y: phony Y.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -914,7 +949,7 @@ build X: phony X.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#4 (string)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe
 
 # =============================================================================
 # Built-in targets
