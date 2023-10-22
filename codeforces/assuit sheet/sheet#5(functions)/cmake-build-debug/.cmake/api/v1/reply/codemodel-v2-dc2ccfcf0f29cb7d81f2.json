@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "sheet5functions",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "A::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-A-Debug-3f046d06172e2fd4f2bd.json",
 					"name" : "A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-B-Debug-73690d2a1fc1604e82b1.json",
+					"name" : "B",
 					"projectIndex" : 0
 				}
 			]
