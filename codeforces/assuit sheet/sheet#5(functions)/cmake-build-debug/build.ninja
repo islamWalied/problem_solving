@@ -436,6 +436,39 @@ build L.exe: CXX_EXECUTABLE_LINKER__L_Debug CMakeFiles/L.dir/L._New_Array.cpp.ob
   TARGET_IMPLIB = libL.dll.a
   TARGET_PDB = L.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target M
+
+
+#############################################
+# Order-only phony target for M
+
+build cmake_object_order_depends_target_M: phony || CMakeFiles/M.dir
+
+build CMakeFiles/M.dir/M._Distinct_Numbers.cpp.obj: CXX_COMPILER__M_Debug C$:/Users/islam/problem_solving/codeforces/assuit$ sheet/sheet#5(functions)/M.$ Distinct$ Numbers.cpp || cmake_object_order_depends_target_M
+  DEP_FILE = CMakeFiles\M.dir\M._Distinct_Numbers.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\M.dir
+  OBJECT_FILE_DIR = CMakeFiles\M.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target M
+
+
+#############################################
+# Link the executable M.exe
+
+build M.exe: CXX_EXECUTABLE_LINKER__M_Debug CMakeFiles/M.dir/M._Distinct_Numbers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\M.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = M.exe
+  TARGET_IMPLIB = libM.dll.a
+  TARGET_PDB = M.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -486,6 +519,8 @@ build K: phony K.exe
 
 build L: phony L.exe
 
+build M: phony M.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -494,7 +529,7 @@ build L: phony L.exe
 #############################################
 # Folder: C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#5(functions)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe
 
 # =============================================================================
 # Built-in targets
