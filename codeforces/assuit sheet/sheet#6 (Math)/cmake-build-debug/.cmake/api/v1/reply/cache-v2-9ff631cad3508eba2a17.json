@@ -851,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "sheet_6__Math_"
+			"value" : "sheet6Math"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1228,6 +1228,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "sheet6Math_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug"
+		},
+		{
+			"name" : "sheet6Math_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "sheet6Math_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#6 (Math)"
 		},
 		{
 			"name" : "sheet_6__Math__BINARY_DIR",

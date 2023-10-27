@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -27,10 +28,11 @@
 					[
 						0
 					],
-					"name" : "sheet_6__Math_",
+					"name" : "sheet6Math",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "A::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-A-Debug-049519976b9ba04daeb0.json",
 					"name" : "A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-B-Debug-4f0da6a6a257ec462441.json",
+					"name" : "B",
 					"projectIndex" : 0
 				}
 			]

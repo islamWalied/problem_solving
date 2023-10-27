@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.23)
-project(sheet_6__Math_)
+project(sheet6Math)
 
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(A "A. Power Of Two.cpp")
+add_executable(B "B. Prime checking.cpp")
