@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(A "A. Power Of Two.cpp")
 add_executable(B "B. Prime checking.cpp")
+add_executable(C "C. Sum of Range.cpp")
