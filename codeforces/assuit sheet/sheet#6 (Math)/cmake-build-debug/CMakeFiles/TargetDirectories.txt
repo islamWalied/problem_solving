@@ -4,5 +4,6 @@ C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-buil
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/D.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/E.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/F.dir
+C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/G.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/islam/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
