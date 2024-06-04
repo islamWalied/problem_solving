@@ -21,7 +21,10 @@ D:/Work/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug
 D:/Work/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/U.dir
 D:/Work/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/V.dir
 D:/Work/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/W.dir
+<<<<<<< HEAD
 D:/Work/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/X.dir
 D:/Work/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/Y.dir
+=======
+>>>>>>> parent of 9220d8a (X. Rectangle)
 D:/Work/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Work/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug/CMakeFiles/rebuild_cache.dir

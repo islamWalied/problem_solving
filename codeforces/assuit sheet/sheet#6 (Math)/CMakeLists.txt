@@ -3,8 +3,7 @@ project(sheet6Math)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(A "A. Power Of Two.cpp"
-        "X. Rectangle.cpp")
+add_executable(A "A. Power Of Two.cpp")
 add_executable(B "B. Prime checking.cpp")
 add_executable(C "C. Sum of Range.cpp")
 add_executable(D "D. Xor.cpp")
@@ -27,5 +26,8 @@ add_executable(T "T. Circle Task.cpp")
 add_executable(U "U. Straight Line.cpp")
 add_executable(V "V. Two Lines.cpp")
 add_executable(W "W. Circles.cpp")
+<<<<<<< HEAD
 add_executable(X "X. Rectangle.cpp")
 add_executable(Y "Y. Common Area.cpp")
+=======
+>>>>>>> parent of 9220d8a (X. Rectangle)

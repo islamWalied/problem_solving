@@ -55,12 +55,6 @@ build CMakeFiles/A.dir/A._Power_Of_Two.cpp.obj: CXX_COMPILER__A_unscanned_Debug 
   OBJECT_DIR = CMakeFiles\A.dir
   OBJECT_FILE_DIR = CMakeFiles\A.dir
 
-build CMakeFiles/A.dir/X._Rectangle.cpp.obj: CXX_COMPILER__A_unscanned_Debug D$:/Work/problem_solving/codeforces/assuit$ sheet/sheet#6$ (Math)/X.$ Rectangle.cpp || cmake_object_order_depends_target_A
-  DEP_FILE = CMakeFiles\A.dir\X._Rectangle.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\A.dir
-  OBJECT_FILE_DIR = CMakeFiles\A.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target A
@@ -69,7 +63,7 @@ build CMakeFiles/A.dir/X._Rectangle.cpp.obj: CXX_COMPILER__A_unscanned_Debug D$:
 #############################################
 # Link the executable A.exe
 
-build A.exe: CXX_EXECUTABLE_LINKER__A_Debug CMakeFiles/A.dir/A._Power_Of_Two.cpp.obj CMakeFiles/A.dir/X._Rectangle.cpp.obj
+build A.exe: CXX_EXECUTABLE_LINKER__A_Debug CMakeFiles/A.dir/A._Power_Of_Two.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\A.dir
@@ -805,6 +799,7 @@ build W.exe: CXX_EXECUTABLE_LINKER__W_Debug CMakeFiles/W.dir/W._Circles.cpp.obj
   TARGET_IMPLIB = libW.dll.a
   TARGET_PDB = W.exe.dbg
 
+<<<<<<< HEAD
 # =============================================================================
 # Object build statements for EXECUTABLE target X
 
@@ -871,6 +866,8 @@ build Y.exe: CXX_EXECUTABLE_LINKER__Y_Debug CMakeFiles/Y.dir/Y._Common_Area.cpp.
   TARGET_IMPLIB = libY.dll.a
   TARGET_PDB = Y.exe.dbg
 
+=======
+>>>>>>> parent of 9220d8a (X. Rectangle)
 
 #############################################
 # Utility command for edit_cache
@@ -943,10 +940,13 @@ build V: phony V.exe
 
 build W: phony W.exe
 
+<<<<<<< HEAD
 build X: phony X.exe
 
 build Y: phony Y.exe
 
+=======
+>>>>>>> parent of 9220d8a (X. Rectangle)
 # =============================================================================
 # Folder targets.
 
@@ -955,7 +955,11 @@ build Y: phony Y.exe
 #############################################
 # Folder: D:/Work/problem_solving/codeforces/assuit sheet/sheet#6 (Math)/cmake-build-debug
 
+<<<<<<< HEAD
 build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe X.exe Y.exe
+=======
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe G.exe H.exe I.exe J.exe K.exe L.exe M.exe N.exe O.exe P.exe Q.exe R.exe S.exe T.exe U.exe V.exe W.exe
+>>>>>>> parent of 9220d8a (X. Rectangle)
 
 # =============================================================================
 # Built-in targets

@@ -449,6 +449,7 @@ rule CXX_EXECUTABLE_LINKER__W_Debug
 
 
 #############################################
+<<<<<<< HEAD
 # Rule for compiling CXX files.
 
 rule CXX_COMPILER__X_unscanned_Debug
@@ -487,6 +488,8 @@ rule CXX_EXECUTABLE_LINKER__Y_Debug
 
 
 #############################################
+=======
+>>>>>>> parent of 9220d8a (X. Rectangle)
 # Rule for running custom commands.
 
 rule CUSTOM_COMMAND
@@ -507,7 +510,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = "C:\Program Files\JetBrains\CLion 2023.3\bin\ninja\win\x64\ninja.exe" $FILE_ARG -t clean $TARGETS
+  command = C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\ninja\win\x64\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -515,6 +518,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = "C:\Program Files\JetBrains\CLion 2023.3\bin\ninja\win\x64\ninja.exe" -t targets
+  command = C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\ninja\win\x64\ninja.exe -t targets
   description = All primary targets available:
 

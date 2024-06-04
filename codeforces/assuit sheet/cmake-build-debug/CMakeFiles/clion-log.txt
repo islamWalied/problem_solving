@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\islam\problem_solving\codeforces\assuit sheet Select CMakeLists.txt
