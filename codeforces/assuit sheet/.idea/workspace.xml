@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -46,7 +46,110 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0844721-449d-4acc-a802-f5656999efa5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b7aa0f046f23d052d49d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-a2c79a2d72aef2a2bea6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-22T05-03-08-0349.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-04T09-09-53-0239.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-A-Debug-207488e2151eb92be5c3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-B-Debug-09225bbf9d090fd7dfe2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-C-Debug-6189716cc9ccb6e1d6d7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-D-Debug-7157d27015bb6650e55c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-E-Debug-d3919c9ff835f9b4b733.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-F-Debug-eaaf2972437bff54ddea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-G-Debug-2828fa6a86ad0aa8324c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-H-Debug-610c4ed017f74e72fd16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-I-Debug-c1e70d8b17bc90e1142d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-J-Debug-84c9dca5646b7b4e0157.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-K-Debug-55937023f5f5e85ed8e4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-L-Debug-e5a3edd116da7ad3db2f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-M-Debug-2f383bc14c92e2af7329.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-N-Debug-8557dcadb431b861bea6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-O-Debug-5d2fa4835727b7f8d09a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-P-Debug-64cbc2535b541a8b0ae9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-Q-Debug-f57add2373b0c9cabd36.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-R-Debug-5821897240b13105848f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-S-Debug-d5b90ec1a3cce40e34ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-T-Debug-7027f2bac6abfa17b317.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-U-Debug-cdf35f6c05fe65e876c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-V-Debug-6d9aa3857854fdd17179.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-W-Debug-9d644ab8e8148c13c078.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-X-Debug-951553bf7d1d1e83a7e0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-Y-Debug-3cd904af2fa33639d29d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/target-Z-Debug-1438c1951f3218a80680.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-879ae172463b8b264ea5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.27.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/A.dir/A._Create_A_New_String.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/B.dir/B._Let's_use_Getline.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/B.dir/B._Let's_use_Getline.cpp.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/C.dir/C._Compare.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/D.dir/D._Strings.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/E.dir/E._Count.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/F.dir/F._Way_Too_Long_Words.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/G.dir/G._Conversion.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/H.dir/H._Good_or_Bad.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/I.dir/I._Palindrome.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/J.dir/J._Count_Letters.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/K.dir/K._I_Love_strings.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/L.dir/L._String_Functions.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/M.dir/M._Subsequence_String.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/N.dir/N._Max_Subsequence.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/O.dir/O._Sort_String.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/P.dir/P._Count_Words.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/Q.dir/Q._Reverse_Words.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/R.dir/R._String_Score.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/S.dir/S._Max_Split.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/T.dir/T._URL.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/U.dir/U._New_Words.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/V.dir/V._Replace_Word.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/W.dir/W._Encrypt_&amp;_Decrypt_Message.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/W.dir/W._Encrypt_&amp;_Decrypt_Message.cpp.obj.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/W.dir/W._Encrypt__Decrypt_Message.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/X.dir/X._Comparison.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/Y.dir/Y._Min_Cost_String.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/Z.dir/Z._Clean_Code.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#6 (Math)/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/Y. Common Area.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0b6ec4e3802d134b2da0.json" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0b6ec4e3802d134b2da0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-44491764ac4927d320b4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-06T14-34-20-0100.json" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-06T14-34-20-0100.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-07T20-29-25-0713.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/.cmake/api/v1/reply/target-Y-Debug-a9b360fbf27146db9ebb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/CMakeFiles/Y.dir/Y._Common_Area.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/Y.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#6 (Math)/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +168,13 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="3" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2hPNpoJxkds9jk7K70QQPRmrKqr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,16 +189,22 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Work/problem_solving/codeforces/assuit sheet",
+    "git-widget-placeholder": "Reverting in main",
+    "last_opened_file_path": "D:/Work/problem_solving/codeforces/assuit sheet/Level 0",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\problem_solving\codeforces\assuit sheet\Level 0" />
+    </key>
+  </component>
   <component name="RunManager" selected="CMake Application.J">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
@@ -266,7 +378,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717491937630</updated>
-      <workItem from="1717491938652" duration="679000" />
+      <workItem from="1717491938652" duration="1589000" />
+      <workItem from="1717586104747" duration="189000" />
+      <workItem from="1717917992897" duration="247000" />
     </task>
     <servers />
   </component>

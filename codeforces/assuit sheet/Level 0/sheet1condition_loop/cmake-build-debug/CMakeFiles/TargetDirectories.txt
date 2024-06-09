@@ -1,0 +1,5 @@
+D:/Work/problem_solving/codeforces/assuit sheet/Level 0/sheet1condition_loop/cmake-build-debug/CMakeFiles/A.dir
+D:/Work/problem_solving/codeforces/assuit sheet/Level 0/sheet1condition_loop/cmake-build-debug/CMakeFiles/B.dir
+D:/Work/problem_solving/codeforces/assuit sheet/Level 0/sheet1condition_loop/cmake-build-debug/CMakeFiles/C.dir
+D:/Work/problem_solving/codeforces/assuit sheet/Level 0/sheet1condition_loop/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Work/problem_solving/codeforces/assuit sheet/Level 0/sheet1condition_loop/cmake-build-debug/CMakeFiles/rebuild_cache.dir
