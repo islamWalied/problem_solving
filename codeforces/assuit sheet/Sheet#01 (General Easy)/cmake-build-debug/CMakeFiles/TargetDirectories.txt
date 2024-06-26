@@ -1,0 +1,4 @@
+D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/A.dir
+D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/B.dir
+D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
