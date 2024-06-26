@@ -106,6 +106,72 @@ build B.exe: CXX_EXECUTABLE_LINKER__B_Debug CMakeFiles/B.dir/B._Watermelon.cpp.o
   TARGET_IMPLIB = libB.dll.a
   TARGET_PDB = B.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C
+
+
+#############################################
+# Order-only phony target for C
+
+build cmake_object_order_depends_target_C: phony || CMakeFiles/C.dir
+
+build CMakeFiles/C.dir/C._Koko_And_The_Transformation.cpp.obj: CXX_COMPILER__C_unscanned_Debug D$:/Work/problem_solving/codeforces/assuit$ sheet/Sheet#01$ (General$ Easy)/C.$ Koko$ And$ The$ Transformation.cpp || cmake_object_order_depends_target_C
+  DEP_FILE = CMakeFiles\C.dir\C._Koko_And_The_Transformation.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C
+
+
+#############################################
+# Link the executable C.exe
+
+build C.exe: CXX_EXECUTABLE_LINKER__C_Debug CMakeFiles/C.dir/C._Koko_And_The_Transformation.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = C.exe
+  TARGET_IMPLIB = libC.dll.a
+  TARGET_PDB = C.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D
+
+
+#############################################
+# Order-only phony target for D
+
+build cmake_object_order_depends_target_D: phony || CMakeFiles/D.dir
+
+build CMakeFiles/D.dir/D._Bear_and_Big_Brother.cpp.obj: CXX_COMPILER__D_unscanned_Debug D$:/Work/problem_solving/codeforces/assuit$ sheet/Sheet#01$ (General$ Easy)/D.$ Bear$ and$ Big$ Brother.cpp || cmake_object_order_depends_target_D
+  DEP_FILE = CMakeFiles\D.dir\D._Bear_and_Big_Brother.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D.dir
+  OBJECT_FILE_DIR = CMakeFiles\D.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D
+
+
+#############################################
+# Link the executable D.exe
+
+build D.exe: CXX_EXECUTABLE_LINKER__D_Debug CMakeFiles/D.dir/D._Bear_and_Big_Brother.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D.exe
+  TARGET_IMPLIB = libD.dll.a
+  TARGET_PDB = D.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +202,10 @@ build A: phony A.exe
 
 build B: phony B.exe
 
+build C: phony C.exe
+
+build D: phony D.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +214,7 @@ build B: phony B.exe
 #############################################
 # Folder: D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug
 
-build all: phony A.exe B.exe
+build all: phony A.exe B.exe C.exe D.exe
 
 # =============================================================================
 # Built-in targets
