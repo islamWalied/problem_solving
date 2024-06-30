@@ -3,6 +3,7 @@ D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-bu
 D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/C.dir
 D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/D.dir
 D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/E.dir
+D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/F.dir
 D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/P.dir
 D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/rebuild_cache.dir

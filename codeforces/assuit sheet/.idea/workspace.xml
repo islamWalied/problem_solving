@@ -47,38 +47,18 @@
   <component name="ChangeListManager">
     <list default="true" id="d0844721-449d-4acc-a802-f5656999efa5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level 0/sheet1condition_loop/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level 0/sheet1condition_loop/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9f72942c1ec659885f45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-09T18-33-08-0603.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/.cmake/api/v1/reply/target-A-Debug-1fb76a99b8c7763b932e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/.cmake/api/v1/reply/target-B-Debug-3c16e5958ae684e0c121.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/.cmake/api/v1/reply/target-C-Debug-7c16260c454fd355efa4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Level 0/sheet1condition_loop/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3563a5bc687569e7e933.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-26T13-02-32-0455.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.cmake/api/v1/reply/target-P-Debug-d20a1083f57579ca1b78.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7ee4a3027f9c792b20a8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-30T03-54-31-0578.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.cmake/api/v1/reply/target-P-Debug-d86d5f287664a393c478.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/P.dir/P._Police_Recruits.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/P.dir/P._Police_Recruits.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/P.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/P.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet#1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-3c7ac59e60449294284d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/J.exe" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/J.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,6 +292,7 @@
       <workItem from="1719403311190" duration="213000" />
       <workItem from="1719720378376" duration="148000" />
       <workItem from="1719720543958" duration="110000" />
+      <workItem from="1719722854377" duration="12000" />
     </task>
     <servers />
   </component>
