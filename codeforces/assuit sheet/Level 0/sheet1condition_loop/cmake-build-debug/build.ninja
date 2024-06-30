@@ -55,6 +55,12 @@ build CMakeFiles/A.dir/A._Hello_World!.cpp.obj: CXX_COMPILER__A_unscanned_Debug 
   OBJECT_DIR = CMakeFiles\A.dir
   OBJECT_FILE_DIR = CMakeFiles\A.dir
 
+build CMakeFiles/A.dir/A._Max_Subarray_Sum.cpp.obj: CXX_COMPILER__A_unscanned_Debug D$:/Work/problem_solving/codeforces/assuit$ sheet/Level$ 0/sheet1condition_loop/A.$ Max$ Subarray$ Sum.cpp || cmake_object_order_depends_target_A
+  DEP_FILE = CMakeFiles\A.dir\A._Max_Subarray_Sum.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\A.dir
+  OBJECT_FILE_DIR = CMakeFiles\A.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target A
@@ -63,7 +69,7 @@ build CMakeFiles/A.dir/A._Hello_World!.cpp.obj: CXX_COMPILER__A_unscanned_Debug 
 #############################################
 # Link the executable A.exe
 
-build A.exe: CXX_EXECUTABLE_LINKER__A_Debug CMakeFiles/A.dir/A._Hello_World!.cpp.obj
+build A.exe: CXX_EXECUTABLE_LINKER__A_Debug CMakeFiles/A.dir/A._Hello_World!.cpp.obj CMakeFiles/A.dir/A._Max_Subarray_Sum.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\A.dir

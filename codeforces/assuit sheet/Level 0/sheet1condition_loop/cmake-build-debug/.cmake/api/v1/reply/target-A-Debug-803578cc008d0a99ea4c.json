@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "P.exe"
+			"path" : "A.exe"
 		},
 		{
-			"path" : "P.pdb"
+			"path" : "A.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -52,11 +52,12 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "P::@6890427a1f51a3e7e1df",
+	"id" : "A::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +77,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "P",
-	"nameOnDisk" : "P.exe",
+	"name" : "A",
+	"nameOnDisk" : "A.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -89,7 +90,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -98,7 +100,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "P. Police Recruits.cpp",
+			"path" : "A. Hello World!.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "A. Max Subarray Sum.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
