@@ -48,17 +48,17 @@
     <list default="true" id="d0844721-449d-4acc-a802-f5656999efa5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7ee4a3027f9c792b20a8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-30T03-54-31-0578.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.cmake/api/v1/reply/target-P-Debug-d86d5f287664a393c478.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-cbca0dcbcf32ad6b4190.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.cmake/api/v1/reply/index-2024-07-07T08-07-40-0841.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/G.dir/G._Magnets.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/G.dir/G._Magnets.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/G.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/G.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Sheet#01 (General Easy)/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet#4 (string)/cmake-build-debug/CMakeCache.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,27 +88,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;CMake Application.F.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.J.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work/problem_solving/codeforces/assuit sheet&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.F.executor": "Run",
+    "CMake Application.J.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Work/problem_solving/codeforces/assuit sheet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Work\problem_solving\codeforces\assuit sheet\sheet#01 (General Easy)" />
@@ -117,6 +118,11 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.J">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="sheet4string" TARGET_NAME="A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="sheet4string" RUN_TARGET_NAME="A">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -293,6 +299,7 @@
       <workItem from="1719720378376" duration="148000" />
       <workItem from="1719720543958" duration="110000" />
       <workItem from="1719722854377" duration="12000" />
+      <workItem from="1720343428052" duration="24000" />
     </task>
     <servers />
   </component>

@@ -337,6 +337,72 @@ build G.exe: CXX_EXECUTABLE_LINKER__G_Debug CMakeFiles/G.dir/G._Magnets.cpp.obj
   TARGET_IMPLIB = libG.dll.a
   TARGET_PDB = G.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target M
+
+
+#############################################
+# Order-only phony target for M
+
+build cmake_object_order_depends_target_M: phony || CMakeFiles/M.dir
+
+build CMakeFiles/M.dir/M._The_New_Year_Meeting_Friends.cpp.obj: CXX_COMPILER__M_unscanned_Debug D$:/Work/problem_solving/codeforces/assuit$ sheet/Sheet#01$ (General$ Easy)/M.$ The$ New$ Year_Meeting$ Friends.cpp || cmake_object_order_depends_target_M
+  DEP_FILE = CMakeFiles\M.dir\M._The_New_Year_Meeting_Friends.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\M.dir
+  OBJECT_FILE_DIR = CMakeFiles\M.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target M
+
+
+#############################################
+# Link the executable M.exe
+
+build M.exe: CXX_EXECUTABLE_LINKER__M_Debug CMakeFiles/M.dir/M._The_New_Year_Meeting_Friends.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\M.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = M.exe
+  TARGET_IMPLIB = libM.dll.a
+  TARGET_PDB = M.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target J
+
+
+#############################################
+# Order-only phony target for J
+
+build cmake_object_order_depends_target_J: phony || CMakeFiles/J.dir
+
+build CMakeFiles/J.dir/J._Lucky_Division.cpp.obj: CXX_COMPILER__J_unscanned_Debug D$:/Work/problem_solving/codeforces/assuit$ sheet/Sheet#01$ (General$ Easy)/J.$ Lucky$ Division.cpp || cmake_object_order_depends_target_J
+  DEP_FILE = CMakeFiles\J.dir\J._Lucky_Division.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\J.dir
+  OBJECT_FILE_DIR = CMakeFiles\J.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target J
+
+
+#############################################
+# Link the executable J.exe
+
+build J.exe: CXX_EXECUTABLE_LINKER__J_Debug CMakeFiles/J.dir/J._Lucky_Division.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\J.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = J.exe
+  TARGET_IMPLIB = libJ.dll.a
+  TARGET_PDB = J.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -379,6 +445,10 @@ build G: phony G.exe
 
 build I: phony I.exe
 
+build J: phony J.exe
+
+build M: phony M.exe
+
 build P: phony P.exe
 
 # =============================================================================
@@ -389,7 +459,7 @@ build P: phony P.exe
 #############################################
 # Folder: D:/Work/problem_solving/codeforces/assuit sheet/Sheet#01 (General Easy)/cmake-build-debug
 
-build all: phony A.exe B.exe C.exe D.exe E.exe F.exe I.exe P.exe G.exe
+build all: phony A.exe B.exe C.exe D.exe E.exe F.exe I.exe P.exe G.exe M.exe J.exe
 
 # =============================================================================
 # Built-in targets
